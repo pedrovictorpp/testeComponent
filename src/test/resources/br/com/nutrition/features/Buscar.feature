@@ -7,7 +7,7 @@ Feature: Buscar
     Given realizo o Mock dos seguintes dados para o nutricionista ID '<ID>' codigoRegistro '<CodigoRegistro>', id_paciente '<Id_paciente>' e nome '<nome>'
     And que realizo a pesquisa pelo ID '<ID>'
     When recebo a resposta com sucesso
-    Then o valor recebido é codigoRegistro '<CodigoRegistro>', id_paciente '<Id_paciente>' e nome '<nome>'
+    Then o valor recebido é codigoRegistro '<CodigoRegistro>', id_paciente '<Id_paciente>', nome '<nome>' e id '<ID>'
     
     Examples: 
       | ID  | CodigoRegistro | Id_paciente  | nome   |
